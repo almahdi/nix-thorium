@@ -79,17 +79,17 @@
     apps.x86_64-linux = {
       thorium-avx = {
         type = "app";
-        program = "${self.packages.x86_64-linux.thorium-avx}/bin/thorium";
+        program = "${self.packages.x86_64-linux.thorium-avx}/bin/thorium-avx";
       };
 
       thorium-avx2 = {
         type = "app";
-        program = "${self.packages.x86_64-linux.thorium-avx2}/bin/thorium";
+        program = "${self.packages.x86_64-linux.thorium-avx2}/bin/thorium-avx2";
       };
 
       thorium-sse3 = {
         type = "app";
-        program = "${self.packages.x86_64-linux.thorium-sse3}/bin/thorium";
+        program = "${self.packages.x86_64-linux.thorium-sse3}/bin/thorium-sse3";
       };
 
       default = self.apps.x86_64-linux.thorium-avx;
