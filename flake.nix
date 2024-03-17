@@ -15,9 +15,9 @@
       thorium-avx = let
         pkgs = import nixpkgs {system = "x86_64-linux";};
         name = "thorium-avx";
-        version = "121.0.6167.204 - 56";
+        version = "122.0.6261.132 - 56";
         src = pkgs.fetchurl {
-          url = "https://github.com/Alex313031/thorium/releases/download/M121.0.6167.204/thorium_browser_121.0.6167.204_AVX.AppImage";
+          url = "https://github.com/Alex313031/thorium/releases/download/M122.0.6261.132/thorium_browser_122.0.6261.132_AVX.AppImage";
           sha256 = "sha256-2PJxnKzppjHrYQnGYYe1BG0075FwDdnjY0JI2X5AIvQ=";
         };
         appimageContents = pkgs.appimageTools.extractType2 {inherit name src;};
@@ -35,9 +35,9 @@
       thorium-avx2 = let
         pkgs = import nixpkgs {system = "x86_64-linux";};
         name = "thorium-avx2";
-        version = "121.0.6167.204 - 56";
+        version = "122.0.6261.132 - 56";
         src = pkgs.fetchurl {
-          url = "https://github.com/Alex313031/thorium/releases/download/M121.0.6167.204/thorium_browser_121.0.6167.204_AVX2.AppImage";
+          url = "https://github.com/Alex313031/thorium/releases/download/M122.0.6261.132/thorium_browser_122.0.6261.132_AVX2.AppImage";
           sha256 = "sha256-HANrDUv/oFW2uWLSYilTCzdnZDY1yuqhLo/jRQil3QA=";
         };
         appimageContents = pkgs.appimageTools.extractType2 {inherit name src;};
@@ -55,9 +55,9 @@
       thorium-sse3 = let
         pkgs = import nixpkgs {system = "x86_64-linux";};
         name = "thorium-sse3";
-        version = "121.0.6167.204 - 56";
+        version = "122.0.6261.132 - 56";
         src = pkgs.fetchurl {
-          url = "https://github.com/Alex313031/thorium/releases/download/M121.0.6167.204/thorium_browser_121.0.6167.204_SSE3.AppImage";
+          url = "https://github.com/Alex313031/thorium/releases/download/M122.0.6261.132/thorium_browser_122.0.6261.132_SSE3.AppImage";
           sha256 = "sha256-G+Z85w7d7YT/03tqcH1VMJGoenoegcttbxz38u0JWcI=";
         };
         appimageContents = pkgs.appimageTools.extractType2 {inherit name src;};
@@ -100,9 +100,9 @@
       thorium = let
         pkgs = import nixpkgs {system = "aarch64-linux";};
         name = "thorium";
-        version = "121.0.6167.204 - 6";
+        version = "122.0.6261.132 - 6";
         src = pkgs.fetchurl {
-          url = "https://github.com/Alex313031/Thorium-Raspi/releases/download/M121.0.6167.204/Thorium_Browser_121.0.6167.204_arm64.AppImage";
+          url = "https://github.com/Alex313031/Thorium-Raspi/releases/download/M122.0.6261.132/Thorium_Browser_122.0.6261.132_arm64.AppImage";
           sha256 = "sha256-gS3/f7wq5adOLZuS2T8SWfme/Z1bFqHSpMLUsENKlcw=";
         };
         appimageContents = pkgs.appimageTools.extractType2 {inherit name src;};
